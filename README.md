@@ -19,14 +19,25 @@ Backend:
 │   └── www       # Backend entry point
 ├── build         # Frontend production build
 ├── client
-│   └── ...       # Frontend source code is here
+│   └── ...       # Frontend source code
 └── routes        # API routes source code
 ```
 
 Frontend:
 
 ```sh
-
+# inside of 'client/'
+├── config/          # Misc. config (Jest, Webpack)
+├── public/          # Public assets
+├── scripts/         # `create-react-app` scripts
+└── src/
+    ├── App.css      # Global css can go here
+    ├── App.js       # Top level React component
+    ├── components/  # React components
+    │   └── ...        # (generally stateless/functional "leaf" components)
+    ├── containers/  # React component containers
+    │   └── ...        # (generally stateful/class components)
+    └── index.js     # App render()'ed
 ```
 
 ## Do These Before Using
@@ -36,4 +47,4 @@ Frontend:
 
 ## Notes
 
-1. 
+1. create-react-app ejected to change webpack config of `yarn build` file path
