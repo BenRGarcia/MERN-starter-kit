@@ -32,13 +32,6 @@ To run just the frontend React app:
 
 [create-react-app](https://reactjs.org/docs/add-react-to-a-new-app.html) used to scaffold frontend code
 
-**Additional configuration**:
-
-* Proxy for frontend -> backend requests setup
-* Scripts to run while in frontend, backend, or fullstack development -- or after "production" deployment to Heroku
-* `npm start` script will serve static assets in `build` folder
-* ESLint 'standard' config
-
 ## Directory Structure
 
 **Backend**:
