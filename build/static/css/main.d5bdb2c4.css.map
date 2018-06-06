@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AACA,KACE,kBACA,SACA,UACA,sBAAwB","file":"static/css/main.d5bdb2c4.css","sourcesContent":["/* Global css styles can go here */\nbody {\n  text-align: center;\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n}\n\n\n// WEBPACK FOOTER //\n// ./src/App.css"],"sourceRoot":""}
