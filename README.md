@@ -4,6 +4,27 @@
 
 (If this template doesn't work for you: fork it, fix it, pull request)
 
+## How to Use this Template
+
+1. Clone repository
+2. `npm i` in the root directory
+3. `yarn install` in the `client/` directory
+4. Go through boilerplate files and update the things you need
+
+## How to Run from Root Directory
+
+To start mongo, run the api server, and launch frontend React App:
+
+`npm run dev`
+
+To run just the api server and start mongo:
+
+`npm run dev-server`
+
+To run just the frontend React app:
+
+`npm run dev-client`
+
 ## Tools
 
 [Express Generator](https://expressjs.com/en/starter/generator.html) used to scaffold backend code
@@ -16,26 +37,6 @@
 * Scripts to run while in frontend, backend, or fullstack development -- or after "production" deployment to Heroku
 * `npm start` script will serve static assets in `build` folder
 * ESLint 'standard' config
-
-## How to Use this Template
-
-1. Clone repository
-2. `npm i` in the root directory
-3. `yarn install` in the `client/` directory
-4. Go through boilerplate files and update the things you need
-
-## How to Run from Root Directory
-
-To start mongo, run the api server, and launch frontend React App:
-`npm run dev`
-
-To run just the api server and start mongo:
-
-`npm run dev-server`
-
-To run just the frontend React app:
-
-`npm run dev-client`
 
 ## Directory Structure
 
