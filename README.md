@@ -10,6 +10,7 @@
 2. `npm i` in the root directory
 3. `yarn install` in the `client/` directory
 4. Go through boilerplate files and update the things you need
+5. Remove `build` from root `.gitignore` and commit before deployment -- otherwise Heroku won't receive your local static assets
 
 ## How to Run from Root Directory
 
