@@ -8,13 +8,22 @@
 
 [create-react-app](https://reactjs.org/docs/add-react-to-a-new-app.html) used to scaffold frontend code
 
-Backend Directory Structure:
+## Directory Structure
+
+Backend:
 
 ```sh
-
+.
+├── app.js        # Server
+├── bin
+│   └── www       # Backend entry point
+├── build         # Frontend production build
+├── client
+│   └── ...       # Frontend source code is here
+└── routes        # API routes source code
 ```
 
-Frontend Directory Structure:
+Frontend:
 
 ```sh
 
@@ -23,3 +32,8 @@ Frontend Directory Structure:
 ## Do These Before Using
 
 1. Update your mongo db name in `./bin/www`
+2. 
+
+## Notes
+
+1. 
