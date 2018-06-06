@@ -7,6 +7,7 @@ const app = express()
 
 // Define routers here
 // ex. const apiRouter = require(./routes/data.js)
+const exampleRouter = require('./routes/exampleRoute.js')
 
 app.use(logger('dev'))
 app.use(express.json())
@@ -15,6 +16,7 @@ app.use(express.static(path.join(__dirname, 'build')))
 
 // Mount routes to app here
 // ex. app.use(/api/data, apiRouter)
+app.use('*', exampleRouter)
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => next(createError(404)))
