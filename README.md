@@ -1,4 +1,4 @@
-# MERN-starter-kit
+# MERN Starter Kit
 
 > Boilerplate MERN stack starter kit, all wired up
 
