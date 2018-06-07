@@ -1,12 +1,15 @@
 const express = require('express')
 const router = express.Router()
-const db = require('../models')
-const user = db.User
 
 /**
  * Example route
  */
 
- router.route('*', (req, res, next) => {
-   res.json({ status: "backend api server is up and running" })
- })
+// Test endpoint with Postman GET request to `localhost:3001/api/example`
+router.get('*', (req, res) => {
+  res.json({
+    status: 'api server is up and running'
+  })
+})
+
+module.exports = router
