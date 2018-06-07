@@ -1,5 +1,8 @@
 import React from 'react';
 
 export const HelloWorld = props => (
-  <h1>{props.title}</h1>
+  <div>
+    <h1>{props.title}</h1>
+    <p>{props.apiServerStatus}</p>
+  </div>
 );
