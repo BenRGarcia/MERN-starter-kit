@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "dev": "concurrently \"npm run dev-server\" \"npm run dev-client\"",
     "dev-server": "concurrently \"mongod\" \"nodemon ./bin/www\"",
-    "dev-client": "cd client && yarn start"
+    "dev-client": "cd client && yarn start",
+    "dev-server-prod": "concurrently \"mongod\" \"node ./bin/www\""
   },
   "dependencies": {
     "debug": "~2.6.9",
